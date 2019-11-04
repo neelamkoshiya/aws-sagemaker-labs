@@ -29,16 +29,43 @@ Download this project, unzip it.
 
 1) Go to AWS Console and search for Sagemaker
 ![Alt text](images/img1.png?raw=true "AWS Console - Sagemaker")
-2) Once in Sagemaker, create a notebook instance. Put in the name - <<yourinitals>>-Labs. 
+2) Once in Sagemaker, create a notebook instance. Put in the name - "yourinitals"-Labs. 
     ![Alt text](images/img2.png?raw=true "Notebook")
     
     ![Alt text](images/img3.png?raw=true "Notebook")
-3) Go to IAM and open the IAM role, ensure the role(which you copied in previous step) has access to S3 buckets (FullS3access)
-4) Once the notebook is created click open the jupyternotebook
+3) Go to IAM and select create a new IAM role, ensure the role has access to S3 buckets (FullS3access)
+![Alt text](images/img4.png?raw=true "Notebook")
+
+
+![Alt text](images/img5.png?raw=true "Notebook")
+
+
+![Alt text](images/img6.png?raw=true "Notebook")
+
+It will take some time to create the notebook. Note the change in the status
+
+![Alt text](images/img7.png?raw=true "Notebook")
+
+4) Once the notebook is created and in "In Service" Status click open the jupyternotebook
+
+![Alt text](images/img8.png?raw=true "Notebook")
+
+Click this button
+
+![Alt text](images/img9.png?raw=true "Notebook")
+
 5) Import the notebook by clicking upload and browse from your downloaded files ( 	sentiment-analysis.ipynb)
+
+![Alt text](images/img10.png?raw=true "Notebook")
+
+![Alt text](images/img11.png?raw=true "Notebook")
+
 6) Once the file is loaded, open the notebook
-7) Click on the block and hit the run button
-8) You can read the details of the steps and also output after every execution.
+![Alt text](images/img12.png?raw=true "Notebook")
+
+7) Clear the cell output. Then Click on the block and hit the run button. You can read the details of the steps and also output after every execution.
+![Alt text](images/img13.png?raw=true "Notebook")
+
 
 
 
