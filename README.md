@@ -46,7 +46,7 @@ It will take some time to create the notebook. Note the change in the status
 
 ![Alt text](images/img7.png?raw=true "Notebook")
 
-4) Once the notebook is created and in "In Service" Status click open the jupyternotebook
+4) Once the notebook is created and in "In Service" Status click open the jupyter which will open the jupyter notebook
 
 ![Alt text](images/img8.png?raw=true "Notebook")
 
