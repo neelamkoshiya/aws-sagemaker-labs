@@ -32,4 +32,6 @@ Download this project, unzip it.
 6) Once the file is loaded, open the notebook
 7) Click on the block and hit the run button
 8) You can read the details of the steps and also output after every execution.
-https://github.com/neelamkoshiya/aws-sagemaker-labs/blob/master/images/img0.png
+
+![Alt text](images/img0.png?raw=true "Title")
+
