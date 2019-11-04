@@ -23,9 +23,16 @@ Amazon SageMaker is not available in all AWS Regions at this time. Accordingly, 
 
 Steps:
 Download this project, unzip it.
+![Alt text](images/img0.png?raw=true "Download project zip")
+
+
 
 1) Go to AWS Console and search for Sagemaker
-2) Once in Sagemaker, create a notebook instance. Put in the name - yourinitals_Labs. Set everything to default and hit create. Copy the IAM role ARN for later 
+![Alt text](images/img1.png?raw=true "AWS Console - Sagemaker")
+2) Once in Sagemaker, create a notebook instance. Put in the name - <<yourinitals>>-Labs. 
+    ![Alt text](images/img2.png?raw=true "Notebook")
+    
+    ![Alt text](images/img3.png?raw=true "Notebook")
 3) Go to IAM and open the IAM role, ensure the role(which you copied in previous step) has access to S3 buckets (FullS3access)
 4) Once the notebook is created click open the jupyternotebook
 5) Import the notebook by clicking upload and browse from your downloaded files ( 	sentiment-analysis.ipynb)
@@ -33,5 +40,5 @@ Download this project, unzip it.
 7) Click on the block and hit the run button
 8) You can read the details of the steps and also output after every execution.
 
-![Alt text](images/img0.png?raw=true "Title")
+
 
