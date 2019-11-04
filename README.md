@@ -1,4 +1,4 @@
-# aws-sagemaker-labs #tensorflow #aws #sagemaker #sentiment analysis
+# Sentiment Analysis using Sagemaker with Tensorflow
 AWS sagemaker examples
 
 This lab helps with sentiment analysis with tensorflow on AWS Sagemaker.
