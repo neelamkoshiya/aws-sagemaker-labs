@@ -7,11 +7,11 @@ This lab helps with sentiment analysis with tensorflow on AWS Sagemaker.
 Sentiment Analysis with TensorFlow
 A Convolutional Neural Net (CNN) is sometimes used in text classification tasks such as sentiment analysis. We'll use a CNN built with TensorFlow to perform sentiment analysis in Amazon SageMaker on the IMDB dataset, which consists of movie reviews labeled as having positive or negative sentiment. Three aspects of Amazon SageMaker will be demonstrated:
 
-How to use Script Mode with a prebuilt TensorFlow container, along with a training script similar to one you would use outside SageMaker.
-Local Mode training, which allows you to test your code on your notebook instance before creating a full scale training job.
-Batch Transform for offline, asynchronous predictions on large batches of data.
+1) How to use Script Mode with a prebuilt TensorFlow container, along with a training script similar to one you would use outside SageMaker.
+2) Local Mode training, which allows you to test your code on your notebook instance before creating a full scale training job.
+3) Batch Transform for offline, asynchronous predictions on large batches of data.
 
-## Prerequisites
+### Prerequisites
 
 Download this project, unzip it.
 
@@ -34,18 +34,18 @@ Amazon SageMaker is not available in all AWS Regions at this time. Accordingly, 
 
 ## Steps:
 
-Download this project, unzip it.
+### Step 1: Download this project, unzip it.
 ![Alt text](images/img0.png?raw=true "Download project zip")
 
 
 
-1) Go to AWS Console and search for Sagemaker
+### Step 2:Go to AWS Console and search for Sagemaker
 ![Alt text](images/img1.png?raw=true "AWS Console - Sagemaker")
-2) Once in Sagemaker, create a notebook instance. Put in the name - "yourinitals"-Labs. 
+### Step 3: Once in Sagemaker, create a notebook instance. Put in the name - "yourinitals"-Lab. 
     ![Alt text](images/img2.png?raw=true "Notebook")
     
     ![Alt text](images/img3.png?raw=true "Notebook")
-3) Go to IAM and select create a new IAM role, ensure the role has access to S3 buckets (FullS3access)
+### Step 4:Go to IAM and select create a new IAM role, ensure the role has access to S3 buckets (FullS3access)
 ![Alt text](images/img4.png?raw=true "Notebook")
 
 
@@ -58,24 +58,27 @@ It will take some time to create the notebook. Note the change in the status
 
 ![Alt text](images/img7.png?raw=true "Notebook")
 
-4) Once the notebook is created and in "In Service" Status click open the jupyter which will open the jupyter notebook
+### Step 5:Once the notebook is created and in "In Service" Status click open the jupyter which will open the jupyter notebook
 
 ![Alt text](images/img8.png?raw=true "Notebook")
 
-Click this button
 
-![Alt text](images/img9.png?raw=true "Notebook")
 
-5) Import the notebook by clicking upload and browse from your downloaded files ( 	sentiment-analysis.ipynb)
+### Step 6: Upload the notebook by clicking upload and browse from your downloaded files ( 	sentiment-analysis.ipynb)
 
 ![Alt text](images/img10.png?raw=true "Notebook")
 
 ![Alt text](images/img11.png?raw=true "Notebook")
 
-6) Once the file is loaded, open the notebook
+### Step 7: Once the file is loaded, open the notebook by clicking on sentiment-analysis.ipynb. Clear the cell output by clicking Cell-->Output-->Clear All.
 ![Alt text](images/img12.png?raw=true "Notebook")
 
-7) Clear the cell output. Then Click on the block and hit the run button. You can read the details of the steps and also output after every execution.
+### Step 8: Click the "Not Trusted" on the left to ensure the notebook is trusted. Wait for few minutes for "Kernel ready" update on the notebook. 
+
+
+### Step 9: Click on the block and hit the run button. You can read the details of the steps and also output after every execution.
+
+
 ![Alt text](images/img13.png?raw=true "Notebook")
 
 
