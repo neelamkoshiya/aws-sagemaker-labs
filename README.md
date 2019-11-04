@@ -1,9 +1,9 @@
 # Sentiment Analysis using Sagemaker with Tensorflow
-AWS sagemaker examples
+
 
 This lab helps with sentiment analysis with tensorflow on AWS Sagemaker.
 
-Breif description about the lab: 
+## Breif description about the lab: 
 Sentiment Analysis with TensorFlow
 A Convolutional Neural Net (CNN) is sometimes used in text classification tasks such as sentiment analysis. We'll use a CNN built with TensorFlow to perform sentiment analysis in Amazon SageMaker on the IMDB dataset, which consists of movie reviews labeled as having positive or negative sentiment. Three aspects of Amazon SageMaker will be demonstrated:
 
@@ -11,7 +11,7 @@ How to use Script Mode with a prebuilt TensorFlow container, along with a traini
 Local Mode training, which allows you to test your code on your notebook instance before creating a full scale training job.
 Batch Transform for offline, asynchronous predictions on large batches of data.
 
-Prerequisites
+## Prerequisites
 
 Download this project, unzip it.
 
@@ -32,7 +32,8 @@ AWS Region
 Amazon SageMaker is not available in all AWS Regions at this time. Accordingly, we recommend running this workshop in one of the following supported AWS Regions: N. Virginia, Oregon, Ohio, or Ireland.
 
 
-Steps:
+## Steps:
+
 Download this project, unzip it.
 ![Alt text](images/img0.png?raw=true "Download project zip")
 
