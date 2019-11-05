@@ -70,7 +70,7 @@ It will take some time to create the notebook. Note the change in the status
 
 ![Alt text](images/img11.png?raw=true "Notebook")
 
-### Step 7: Once the file is loaded, open the notebook by clicking on sentiment-analysis.ipynb. Clear the cell output by clicking Cell-->Output-->Clear All. 
+### Step 7: Once the file is loaded, open the notebook by clicking on sentiment-analysis.ipynb. Clear the cell output by clicking Cell-->All Output-->Clear . 
 ![Alt text](images/img12.png?raw=true "Notebook")
 Save the changes
 
