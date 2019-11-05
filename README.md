@@ -70,11 +70,15 @@ It will take some time to create the notebook. Note the change in the status
 
 ![Alt text](images/img11.png?raw=true "Notebook")
 
-### Step 7: Once the file is loaded, open the notebook by clicking on sentiment-analysis.ipynb. Clear the cell output by clicking Cell-->Output-->Clear All.
+### Step 7: Once the file is loaded, open the notebook by clicking on sentiment-analysis.ipynb. Clear the cell output by clicking Cell-->Output-->Clear All. 
 ![Alt text](images/img12.png?raw=true "Notebook")
+Save the changes
 
-### Step 8: Click the "Not Trusted" on the left to ensure the notebook is trusted. Wait for few minutes for "Kernel ready" update on the notebook. 
 
+![Alt text](images/img14.png?raw=true "Notebook")
+
+### Step 8: Click the "Not Trusted" on the left to ensure the notebook is trusted. Refresh the page. Wait for few minutes for "Kernel ready" update on the notebook. 
+![Alt text](images/img15.png?raw=true "Notebook")
 
 ### Step 9: Click on the block and hit the run button. You can read the details of the steps and also output after every execution.
 
