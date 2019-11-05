@@ -48,7 +48,7 @@ Amazon SageMaker is not available in all AWS Regions at this time. Accordingly, 
 ### Step 4:Go to IAM and select create a new IAM role, ensure the role has access to S3 buckets (FullS3access)
 ![Alt text](images/img4.png?raw=true "Notebook")
 
-
+In the popup, select any bucket.
 ![Alt text](images/img5.png?raw=true "Notebook")
 
 
