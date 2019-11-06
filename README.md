@@ -42,9 +42,9 @@ Amazon SageMaker is not available in all AWS Regions at this time. Accordingly, 
 ### Step 2:Go to AWS Console and search for Sagemaker
 ![Alt text](images/img1.png?raw=true "AWS Console - Sagemaker")
 ### Step 3: Once in Sagemaker, create a notebook instance. Put in the name - "yourinitals"-Lab. 
-    ![Alt text](images/img2.png?raw=true "Notebook")
+   ![Alt text](images/img2.png?raw=true "Notebook")
     
-    ![Alt text](images/img3.png?raw=true "Notebook")
+   ![Alt text](images/img3.png?raw=true "Notebook")
 ### Step 4:Go to IAM and select create a new IAM role, ensure the role has access to S3 buckets (FullS3access)
 ![Alt text](images/img4.png?raw=true "Notebook")
 
